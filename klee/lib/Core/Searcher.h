@@ -71,7 +71,8 @@ namespace klee {
       NURS_RP,
       NURS_ICnt,
       NURS_CPICnt,
-      NURS_QC
+      NURS_QC,
+      BestFirstDFS
     };
   };
 
@@ -301,6 +302,19 @@ namespace klee {
     explicit InterleavedSearcher(const std::vector<Searcher *> &searchers);
     ~InterleavedSearcher() override = default;
 
+    ExecutionState &selectState() override;
+    void update(ExecutionState *current,
+                const std::vector<ExecutionState *> &addedStates,
+                const std::vector<ExecutionState *> &removedStates) override;
+    bool empty() override;
+    void printName(llvm::raw_ostream &os) override;
+  };
+  
+  /// BestFirstDFSSearcher implements depth-first exploration with best-first heuristic.
+  class BestFirstDFSSearcher final : public Searcher {
+    std::vector<ExecutionState*> states;
+
+  public:
     ExecutionState &selectState() override;
     void update(ExecutionState *current,
                 const std::vector<ExecutionState *> &addedStates,

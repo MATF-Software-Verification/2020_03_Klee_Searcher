@@ -552,3 +552,36 @@ void InterleavedSearcher::printName(llvm::raw_ostream &os) {
     searcher->printName(os);
   os << "</InterleavedSearcher>\n";
 }
+
+
+///
+
+ExecutionState &BestFirstDFSSearcher::selectState() {
+  return *states.back();
+}
+
+void BestFirstDFSSearcher::update(ExecutionState *current,
+                         const std::vector<ExecutionState *> &addedStates,
+                         const std::vector<ExecutionState *> &removedStates) {
+  // insert states
+  states.insert(states.end(), addedStates.begin(), addedStates.end());
+
+  // remove states
+  for (const auto state : removedStates) {
+    if (state == states.back()) {
+      states.pop_back();
+    } else {
+      auto it = std::find(states.begin(), states.end(), state);
+      assert(it != states.end() && "invalid state removed");
+      states.erase(it);
+    }
+  }
+}
+
+bool BestFirstDFSSearcher::empty() {
+  return states.empty();
+}
+
+void BestFirstDFSSearcher::printName(llvm::raw_ostream &os) {
+  os << "BestFirstDFSSearcher\n";
+}
