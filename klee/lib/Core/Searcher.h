@@ -313,6 +313,8 @@ namespace klee {
   /// BestFirstDFSSearcher implements depth-first exploration with best-first heuristic.
   class BestFirstDFSSearcher final : public Searcher {
     std::vector<ExecutionState*> states;
+    bool selectBest = true;
+    uint64_t instructions;
 
   public:
     ExecutionState &selectState() override;
