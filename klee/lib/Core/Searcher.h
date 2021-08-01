@@ -310,13 +310,19 @@ namespace klee {
     void printName(llvm::raw_ostream &os) override;
   };
   
-  /// BestFirstDFSSearcher implements depth-first exploration with best-first heuristic.
+  /// BestFirstDFSSearcher implements depth-first exploration with best-first
+  /// heuristic. A state whose instruction is run least number of times is selected
+  /// for exploration in a DFS manner for a while. After instsBeforeNewBest
+  /// instructions, a new best state is chosen.
   class BestFirstDFSSearcher final : public Searcher {
     std::vector<ExecutionState*> states;
-    bool selectBest = true;
+    unsigned instsBeforeNewBest;
+    bool selectBest;
     uint64_t instructions;
 
   public:
+    /// \param instsBeforeNewBest Number of instructions before picking a new best state.
+    BestFirstDFSSearcher(unsigned instsBeforeNewBest);
     ExecutionState &selectState() override;
     void update(ExecutionState *current,
                 const std::vector<ExecutionState *> &addedStates,

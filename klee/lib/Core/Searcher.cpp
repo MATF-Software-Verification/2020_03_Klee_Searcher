@@ -556,15 +556,22 @@ void InterleavedSearcher::printName(llvm::raw_ostream &os) {
 
 ///
 
+BestFirstDFSSearcher::BestFirstDFSSearcher(unsigned instsBeforeNewBest)
+  : instsBeforeNewBest(instsBeforeNewBest) {
+
+  selectBest = false;
+  instructions = stats::instructions;
+}
+
 ExecutionState &BestFirstDFSSearcher::selectState() {
   if (selectBest)
   {
     ExecutionState* bestState = states.back();
-    uint64_t instCount = theStatisticManager->getIndexedValue(stats::instructions, states.back()->pc->info->id);;
+    uint64_t instCount = theStatisticManager->getIndexedValue(stats::instructions, states.back()->pc->info->id);
     for (const auto state : states)
     {
       uint64_t currCount = theStatisticManager->getIndexedValue(stats::instructions, state->pc->info->id);
-      if(currCount <= instCount)
+      if (currCount <= instCount)
       {
         bestState = state;
         instCount = currCount;
@@ -576,7 +583,7 @@ ExecutionState &BestFirstDFSSearcher::selectState() {
   }
   else
   {
-    if(stats::instructions >= instructions + 10000)
+    if (stats::instructions >= instructions + instsBeforeNewBest)
       selectBest = true;
     return *states.back();
   }
@@ -605,5 +612,5 @@ bool BestFirstDFSSearcher::empty() {
 }
 
 void BestFirstDFSSearcher::printName(llvm::raw_ostream &os) {
-  os << "BestFirstDFSSearcher\n";
+  os << "BestFirstDFSSearcher with best-first-dfs-instructions=" << instsBeforeNewBest << "\n";
 }

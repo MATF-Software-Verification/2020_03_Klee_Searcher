@@ -48,7 +48,8 @@ cl::list<Searcher::CoreSearchType> CoreSearch(
         clEnumValN(Searcher::NURS_CPICnt, "nurs:cpicnt",
                    "use NURS with CallPath-Instr-Count"),
         clEnumValN(Searcher::NURS_QC, "nurs:qc", "use NURS with Query-Cost"),
-        clEnumValN(Searcher::BestFirstDFS, "best-first-dfs", "use Depth First Search (DFS) with best-first heuristic")
+        clEnumValN(Searcher::BestFirstDFS, "best-first-dfs",
+                   "use Depth First Search (DFS) with best-first heuristic")
             KLEE_LLVM_CL_VAL_END),
     cl::cat(SearchCat));
 
@@ -79,6 +80,13 @@ cl::opt<std::string> BatchTime(
     cl::desc("Amount of time to batch when using "
              "--use-batching-search.  Set to 0s to disable (default=5s)"),
     cl::init("5s"),
+    cl::cat(SearchCat));
+
+cl::opt<unsigned> BestFirstDFSInsts(
+    "best-first-dfs-instructions",
+    cl::desc("Number of instructions to search with DFS "
+             "before picking a new best state to start from (default=10000)"),
+    cl::init(10000),
     cl::cat(SearchCat));
 
 } // namespace
@@ -119,7 +127,7 @@ Searcher *getNewSearcher(Searcher::CoreSearchType type, RNG &rng, PTree &process
     case Searcher::NURS_ICnt: searcher = new WeightedRandomSearcher(WeightedRandomSearcher::InstCount, rng); break;
     case Searcher::NURS_CPICnt: searcher = new WeightedRandomSearcher(WeightedRandomSearcher::CPInstCount, rng); break;
     case Searcher::NURS_QC: searcher = new WeightedRandomSearcher(WeightedRandomSearcher::QueryCost, rng); break;
-    case Searcher::BestFirstDFS: searcher = new BestFirstDFSSearcher(); break;
+    case Searcher::BestFirstDFS: searcher = new BestFirstDFSSearcher(BestFirstDFSInsts); break;
   }
 
   return searcher;
