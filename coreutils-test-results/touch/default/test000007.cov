@@ -1,0 +1,17 @@
+libc/string/strchr.c:22
+libc/unistd/getopt.c:453
+libc/unistd/getopt.c:473
+libc/unistd/getopt.c:549
+libc/unistd/getopt.c:811
+libc/unistd/getopt.c:812
+libc/unistd/getopt.c:815
+libc/unistd/getopt.c:816
+libc/unistd/getopt.c:818
+libc/unistd/getopt.c:1085
+libc/unistd/getopt.c:1152
+../src/touch.c:0
+../src/touch.c:261
+../src/touch.c:279
+../src/touch.c:284
+../src/touch.c:285
+../src/touch.c:429

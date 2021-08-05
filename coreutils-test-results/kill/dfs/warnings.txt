@@ -1,0 +1,8 @@
+KLEE: WARNING: undefined reference to function: __ctype_get_mb_cur_max
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 94213861245360) at runtime/POSIX/fd.c:1007 10
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: vprintf(94213861184912, 94213861580672) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: calling close_stdout with extra arguments.
+KLEE: WARNING ONCE: calling external: __ctype_get_mb_cur_max() at ../lib/quotearg.c:262 36

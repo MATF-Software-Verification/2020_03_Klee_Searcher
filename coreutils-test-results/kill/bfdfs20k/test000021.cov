@@ -1,0 +1,13 @@
+libc/string/memchr.c:36
+libc/string/memchr.c:37
+../src/operand2sig.c:0
+../src/operand2sig.c:67
+../src/operand2sig.c:72
+../src/operand2sig.c:73
+../src/operand2sig.c:78
+../lib/sig2str.c:0
+../lib/sig2str.c:276
+../lib/sig2str.c:278
+../lib/sig2str.c:286
+../lib/sig2str.c:289
+../lib/sig2str.c:321

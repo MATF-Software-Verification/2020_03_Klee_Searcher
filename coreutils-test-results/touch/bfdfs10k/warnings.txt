@@ -1,0 +1,103 @@
+KLEE: WARNING ONCE: unsupported intrinsic llvm.abs.i32
+KLEE: WARNING: undefined reference to function: __ctype_get_mb_cur_max
+KLEE: WARNING: undefined reference to function: futimens
+KLEE: WARNING: undefined reference to function: utimensat
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 94560041747680) at runtime/POSIX/fd.c:1007 10
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: vprintf(94560041235952, 94560041779552) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: calling close_stdout with extra arguments.
+KLEE: WARNING ONCE: calling external: __ctype_get_mb_cur_max() at ../lib/quotearg.c:262 36
+KLEE: WARNING ONCE: calling external: utimensat(4294967196, 94560041684832, 94560041220736, 0) at ../lib/fdutimensat.c:0 0
+KLEE: WARNING ONCE: calling external: futimens(0, 94560041220736) at ../lib/fdutimensat.c:0 0
+KLEE: WARNING ONCE: calling external: printf(94560041219392, 94560035740032) at ../src/touch.c:218 7
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING ONCE: calling external: gettimeofday(94560089503376, 0) at runtime/POSIX/stubs.c:159 20
+KLEE: WARNING: killing 3687 states (over memory cap: 1103MB)
+KLEE: WARNING: killing 3680 states (over memory cap: 1104MB)
+KLEE: WARNING: killing 3641 states (over memory cap: 1104MB)
+KLEE: WARNING: killing 3605 states (over memory cap: 1104MB)
+KLEE: WARNING: killing 3672 states (over memory cap: 1107MB)
+KLEE: WARNING: killing 3604 states (over memory cap: 1106MB)
+KLEE: WARNING: killing 3707 states (over memory cap: 1109MB)
+KLEE: WARNING: killing 3530 states (over memory cap: 1104MB)

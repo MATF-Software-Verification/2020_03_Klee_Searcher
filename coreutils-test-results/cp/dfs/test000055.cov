@@ -1,0 +1,12 @@
+runtime/POSIX/fd.c:0
+runtime/POSIX/fd.c:37
+runtime/POSIX/fd.c:63
+runtime/POSIX/fd.c:64
+runtime/POSIX/fd.c:65
+runtime/POSIX/fd.c:66
+runtime/POSIX/fd.c:538
+runtime/POSIX/fd.c:539
+../src/cp.c:0
+../src/cp.c:1093
+../src/cp.c:1097
+../src/cp.c:1098

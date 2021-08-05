@@ -1,0 +1,16 @@
+../src/kill.c:221
+../src/kill.c:256
+../src/kill.c:258
+../src/kill.c:260
+../src/kill.c:261
+libc/unistd/getopt.c:1090
+libc/unistd/getopt.c:1092
+libc/unistd/getopt.c:1093
+libc/unistd/getopt.c:1094
+libc/unistd/getopt.c:1097
+libc/unistd/getopt.c:1098
+libc/stdio/_vfprintf.c:1438
+libc/stdio/_vfprintf.c:1689
+libc/stdio/_vfprintf.c:1690
+libc/stdio/_vfprintf.c:1691
+libc/stdio/_vfprintf.c:1692

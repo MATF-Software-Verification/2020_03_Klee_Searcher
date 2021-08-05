@@ -1,0 +1,19 @@
+n_args0  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+A-data-stat1  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+stdin-stat2  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+stdout-stat3  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+model_version4  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+arg005  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+arg016  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+arg027  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+%----------------------------------------------------
+ASSERT( ((((0x02 = n_args0[0x00000000]
+) AND (0x00 = n_args0[0x00000001]
+)
+) AND (0x00 = n_args0[0x00000002]
+)
+) AND (0x00 = n_args0[0x00000003]
+)
+) );
+%----------------------------------------------------
+QUERY( FALSE  );

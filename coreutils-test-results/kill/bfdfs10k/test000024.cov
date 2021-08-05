@@ -1,0 +1,12 @@
+../src/operand2sig.c:36
+../src/operand2sig.c:67
+../src/operand2sig.c:72
+../src/operand2sig.c:73
+../lib/xmalloc.c:0
+../lib/xmalloc.c:44
+../lib/xmalloc.c:292
+../lib/xmalloc.c:317
+libc/string/memchr.c:18
+libc/string/memchr.c:20
+libc/string/memchr.c:28
+libc/string/memchr.c:29

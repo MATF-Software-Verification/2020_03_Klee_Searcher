@@ -1,0 +1,127 @@
+array A-data-stat[144] : w32 -> w8 = symbolic
+array arg00[11] : w32 -> w8 = symbolic
+array arg01[11] : w32 -> w8 = symbolic
+array arg02[11] : w32 -> w8 = symbolic
+array const_arr3[24] : w32 -> w8 = [8 0 0 0 171 171 171 171 136 219 154 253 103 85 0 0 240 131 14 252 103 85 0 0]
+array model_version[4] : w32 -> w8 = symbolic
+array n_args[4] : w32 -> w8 = symbolic
+array stdin-stat[144] : w32 -> w8 = symbolic
+array stdout-stat[144] : w32 -> w8 = symbolic
+(query [(Ult N0:(ReadLSB w32 0 n_args)
+              4)
+         (Slt 0 N0)
+         (Eq false (Eq 1 N0))
+         (Eq false (Eq 2 N0))
+         (Eq false
+             (Eq 0
+                 (And w64 N1:(ReadLSB w64 8 A-data-stat)
+                          2147483647)))
+         (Ult (ReadLSB w64 56 A-data-stat)
+              65536)
+         (Eq false
+             (Eq 0
+                 (And w64 (ReadLSB w64 8 stdin-stat)
+                          2147483647)))
+         (Ult (ReadLSB w64 56 stdin-stat)
+              65536)
+         (Eq false
+             (Eq 0
+                 (And w64 (ReadLSB w64 8 stdout-stat)
+                          2147483647)))
+         (Ult (ReadLSB w64 56 stdout-stat)
+              65536)
+         (Eq 1
+             (ReadLSB w32 0 model_version))
+         (Eq false
+             (Eq 45 (Read w8 0 arg00)))
+         (Eq 45 (Read w8 0 arg01))
+         (Eq 0 (Read w8 1 arg01))
+         (Eq 45 (Read w8 0 arg02))
+         (Eq 45 (Read w8 1 arg02))
+         (Eq 61 (Read w8 8 arg02))
+         (Eq 114 (Read w8 2 arg02))
+         (Eq 101 (Read w8 3 arg02))
+         (Eq 102 (Read w8 4 arg02))
+         (Eq 101 (Read w8 5 arg02))
+         (Eq 114 (Read w8 6 arg02))
+         (Eq 101 (Read w8 7 arg02))
+         (Eq 65 (Read w8 9 arg02))
+         (Eq false
+             (Eq 0
+                 N2:(Concat w32 (Read w8 (Extract w32 0 (Add w64 18446650168610749487
+                                                                 N3:(ReadLSB w64 N4:(Extract w32 0 (Add w64 18446650168578616752
+                                                                                                            (Select w64 (Eq 0 N1) 0 93905130934880))) const_arr3)))
+                                         U0:[71=0, 70=0, 69=0, 68=0, 67=0, 66=0, 65=0, 64=8, 55=0, 54=0, 53=0, 52=0, 51=0, 50=0, 49=0, 48=8] @ A-data-stat)
+                                (Concat w24 (Read w8 (Extract w32 0 (Add w64 18446650168610749486 N3))
+                                                     U0)
+                                            (Concat w16 (Read w8 (Extract w32 0 (Add w64 18446650168610749485 N3))
+                                                                 U0)
+                                                        (Read w8 (Extract w32 0 (Add w64 18446650168610749484 N3))
+                                                                 U0))))))
+         (Eq false (Eq 1 N2))
+         (Eq false (Eq 2 N2))
+         (Eq false (Eq 8 N2))
+         (Eq false (Eq 14 N2))
+         (Eq false (Eq 33 N2))
+         (Eq false (Eq 68 N2))
+         (Eq false (Eq 81 N2))
+         (Eq false (Eq 99 N2))
+         (Eq false (Eq 191 N2))
+         (Eq false (Eq 192 N2))
+         (Eq false (Eq 193 N2))
+         (Eq false (Eq 194 N2))
+         (Eq false (Eq 195 N2))
+         (Eq false (Eq 1000 N2))
+         (Eq false (Eq 143 N2))
+         (Eq false (Eq 102 N2))
+         (Eq false (Eq 84 N2))
+         (Eq false (Eq 89 N2))
+         (Eq false (Eq 135 N2))
+         (Eq false (Eq 133 N2))
+         (Eq false (Eq 124 N2))
+         (Eq false (Eq 999 N2))
+         (Eq false (Eq 998 N2))
+         (Eq false (Eq 997 N2))
+         (Eq false (Eq 996 N2))
+         (Eq false (Eq 995 N2))
+         (Eq false (Eq 994 N2))
+         (Eq false (Eq 125 N2))
+         (Eq false (Eq 87 N2))
+         (Eq false (Eq 140 N2))
+         (Eq false (Eq 990 N2))
+         (Eq false (Eq 989 N2))
+         (Eq false (Eq 987 N2))
+         (Eq false (Eq 40 N2))
+         (Eq false (Eq 986 N2))
+         (Eq false (Eq 32 N2))
+         (Eq false (Eq 984 N2))
+         (Eq false (Eq 983 N2))
+         (Eq false (Eq 980 N2))
+         (Eq false
+             (Ult N5:(ZExt w64 N2) 10))
+         (Eq false
+             (Ult N6:(UDiv w64 N5 10) 10))
+         (Eq false
+             (Ult N7:(UDiv w64 N6 10) 10))
+         (Eq false
+             (Ult N8:(UDiv w64 N7 10) 10))
+         (Eq false
+             (Ult N9:(UDiv w64 N8 10) 10))
+         (Eq false
+             (Ult N10:(UDiv w64 N9 10) 10))
+         (Eq false
+             (Ult N11:(UDiv w64 N10 10) 10))
+         (Eq false
+             (Ult N12:(UDiv w64 N11 10) 10))
+         (Eq false
+             (Ult (UDiv w64 N12 10) 10))
+         (Eq 0
+             (Concat w32 (Read w8 (Extract w32 0 (Add w64 18446650168610749491 N3))
+                                  U0)
+                         (Concat w24 (Read w8 (Extract w32 0 (Add w64 18446650168610749490 N3))
+                                              U0)
+                                     (Concat w16 (Read w8 (Extract w32 0 (Add w64 18446650168610749489 N3))
+                                                          U0)
+                                                 (Read w8 (Extract w32 0 (Add w64 18446650168610749488 N3))
+                                                          U0)))))]
+        false)

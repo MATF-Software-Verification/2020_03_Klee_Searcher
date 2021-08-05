@@ -1,0 +1,21 @@
+KLEE: Using STP solver backend
+KLEE: ERROR: ../src/mkdir.c:239: failed external call: selabel_open
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: ../lib/modechange.c:308: memory error: invalid pointer: free
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: ../lib/modechange.c:288: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+KLEE: increased time budget from 5.000000 to 5.755236
+
+KLEE: increased time budget from 5.755236 to 7.002951
+
+KLEE: increased time budget from 7.002951 to 8.992813
+
+KLEE: increased time budget from 8.992813 to 12.271247
+
+KLEE: increased time budget from 12.271247 to 14.668473
+
+KLEE: increased time budget from 14.668473 to 16.871933
+
+KLEE: HaltTimer invoked
+KLEE: halting execution, dumping remaining states

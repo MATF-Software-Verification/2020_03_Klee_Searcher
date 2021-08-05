@@ -1,0 +1,14 @@
+../src/dd.c:1454
+../src/dd.c:1478
+../lib/xstrtol.c:0
+../lib/xstrtol.c:82
+../lib/xstrtol.c:111
+../lib/xstrtol.c:127
+../lib/xstrtol.c:235
+../lib/xstrtol.c:236
+libc/stdlib/stdlib.c:509
+libc/stdlib/stdlib.c:569
+libc/stdlib/stdlib.c:571
+libc/stdlib/stdlib.c:572
+libc/stdlib/stdlib.c:577
+libc/stdlib/stdlib.c:579

@@ -1,0 +1,20 @@
+/home/agent/Documents/VS/2020_03_Klee_Searcher/klee/build/bin/klee --simplify-sym-indices --write-cvcs --write-cov --output-module --max-memory=1000 --disable-inlining --optimize --use-forked-solver --use-cex-cache --libc=uclibc --posix-runtime --external-calls=all --only-output-states-covering-new --max-sym-array-size=4096 --max-solver-time=30s --max-time=60min --watchdog --max-memory-inhibit=false --max-static-fork-pct=1 --max-static-solve-pct=1 --max-static-cpfork-pct=1 --switch-type=internal --search=best-first-dfs --best-first-dfs-instructions=20000 /media/Data/coreutils/obj-llvm/src/kill.bc --sym-args 0 3 10 --sym-files 1 8 --sym-stdin 8 --sym-stdout
+PID: 1085172
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2021-08-02 20:31:58
+BEGIN searcher description
+BestFirstDFSSearcher with best-first-dfs-instructions=20000
+END searcher description
+Finished: 2021-08-02 21:31:59
+Elapsed: 01:00:01
+KLEE: done: explored paths = 173830
+KLEE: done: avg. constructs per query = 557
+KLEE: done: total queries = 26466
+KLEE: done: valid queries = 17337
+KLEE: done: invalid queries = 9129
+KLEE: done: query cex = 26466
+
+KLEE: done: total instructions = 1094253603
+KLEE: done: completed paths = 115767
+KLEE: done: partially completed paths = 58063
+KLEE: done: generated tests = 70

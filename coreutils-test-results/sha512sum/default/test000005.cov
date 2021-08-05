@@ -1,0 +1,13 @@
+../src/md5sum.c:0
+../src/md5sum.c:225
+../src/md5sum.c:226
+../src/md5sum.c:298
+../src/md5sum.c:994
+../src/md5sum.c:996
+libc/stdio/_vfprintf.c:515
+libc/stdio/_vfprintf.c:580
+libc/stdio/_vfprintf.c:1899
+libc/stdio/_vfprintf.c:1900
+libc/stdio/_vfprintf.c:1904
+libc/stdio/_vfprintf.c:1908
+libc/stdio/_vfprintf.c:1909

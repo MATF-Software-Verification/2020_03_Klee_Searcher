@@ -1,0 +1,6 @@
+runtime/POSIX/fd.c:191
+runtime/POSIX/fd.c:192
+runtime/POSIX/fd.c:193
+runtime/POSIX/fd.c:204
+runtime/POSIX/fd.c:205
+../src/dd.c:2475

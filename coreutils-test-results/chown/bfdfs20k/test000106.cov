@@ -1,0 +1,15 @@
+../lib/userspec.c:0
+../lib/userspec.c:102
+../lib/userspec.c:133
+../lib/userspec.c:158
+../lib/userspec.c:161
+../lib/userspec.c:163
+../lib/userspec.c:164
+../lib/userspec.c:165
+../lib/userspec.c:172
+../lib/userspec.c:174
+../lib/xmalloc.c:0
+../lib/xmalloc.c:44
+../lib/xmalloc.c:292
+../lib/xmalloc.c:317
+../lib/xstrtol.c:76

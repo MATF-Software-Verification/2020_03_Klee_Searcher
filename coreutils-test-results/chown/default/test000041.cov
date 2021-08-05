@@ -1,0 +1,6 @@
+libc/unistd/getopt.c:633
+libc/unistd/getopt.c:696
+../src/chown.c:0
+../src/chown.c:229
+../src/chown.c:230
+../src/chown.c:233

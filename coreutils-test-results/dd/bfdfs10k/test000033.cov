@@ -1,0 +1,5 @@
+libc/string/strchr.c:22
+libc/unistd/getopt.c:420
+libc/unistd/getopt.c:488
+libc/unistd/getopt.c:495
+libc/unistd/getopt.c:496

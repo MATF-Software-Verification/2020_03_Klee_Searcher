@@ -1,0 +1,5 @@
+KLEE: Using STP solver backend
+KLEE: ERROR: ../src/mkdir.c:239: failed external call: selabel_open
+KLEE: NOTE: now ignoring this error at this location
+KLEE: HaltTimer invoked
+KLEE: halting execution, dumping remaining states

@@ -1,0 +1,11 @@
+libc/misc/internals/__uClibc_main.c:401
+libc/unistd/getopt.c:478
+runtime/POSIX/klee_init_env.c:245
+../src/touch.c:0
+../src/touch.c:208
+../src/touch.c:261
+../src/touch.c:438
+../src/touch.c:439
+../src/touch.c:442
+../lib/fdutimensat.c:0
+../lib/fdutimensat.c:48

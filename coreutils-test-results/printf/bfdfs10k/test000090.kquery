@@ -1,0 +1,124 @@
+array A-data-stat[144] : w32 -> w8 = symbolic
+array B-data-stat[144] : w32 -> w8 = symbolic
+array arg00[11] : w32 -> w8 = symbolic
+array arg01[11] : w32 -> w8 = symbolic
+array const_arr1[768] : w32 -> w8 = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 3 32 2 32 2 32 2 32 2 32 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 1 96 4 192 4 192 4 192 4 192 4 192 4 192 4 192 4 192 4 192 4 192 4 192 4 192 4 192 4 192 4 192 8 216 8 216 8 216 8 216 8 216 8 216 8 216 8 216 8 216 8 216 4 192 4 192 4 192 4 192 4 192 4 192 4 192 8 213 8 213 8 213 8 213 8 213 8 213 8 197 8 197 8 197 8 197 8 197 8 197 8 197 8 197 8 197 8 197 8 197 8 197 8 197 8 197 8 197 8 197 8 197 8 197 8 197 8 197 4 192 4 192 4 192 4 192 4 192 4 192 8 214 8 214 8 214 8 214 8 214 8 214 8 198 8 198 8 198 8 198 8 198 8 198 8 198 8 198 8 198 8 198 8 198 8 198 8 198 8 198 8 198 8 198 8 198 8 198 8 198 8 198 4 192 4 192 4 192 4 192 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+array const_arr3[256] : w32 -> w8 = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 1 1 1 1 1 0 1 0 0 0 0 0 1 0 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+array model_version[4] : w32 -> w8 = symbolic
+array n_args[4] : w32 -> w8 = symbolic
+array stdin-stat[144] : w32 -> w8 = symbolic
+array stdout-stat[144] : w32 -> w8 = symbolic
+(query [(Ult N0:(ReadLSB w32 0 n_args)
+              4)
+         (Slt 0 N0)
+         (Eq false (Eq 1 N0))
+         (Eq false (Eq 2 N0))
+         (Eq false
+             (Eq 0
+                 (And w64 (ReadLSB w64 8 A-data-stat)
+                          2147483647)))
+         (Ult (ReadLSB w64 56 A-data-stat)
+              65536)
+         (Eq false
+             (Eq 0
+                 (And w64 (ReadLSB w64 8 B-data-stat)
+                          2147483647)))
+         (Ult (ReadLSB w64 56 B-data-stat)
+              65536)
+         (Eq false
+             (Eq 0
+                 (And w64 (ReadLSB w64 8 stdin-stat)
+                          2147483647)))
+         (Ult (ReadLSB w64 56 stdin-stat)
+              65536)
+         (Eq false
+             (Eq 0
+                 (And w64 (ReadLSB w64 8 stdout-stat)
+                          2147483647)))
+         (Ult (ReadLSB w64 56 stdout-stat)
+              65536)
+         (Eq 1
+             (ReadLSB w32 0 model_version))
+         (Eq false
+             (Eq 45 N1:(Read w8 0 arg00)))
+         (Eq false (Eq 0 N1))
+         (Eq false (Eq 92 N1))
+         (Eq false (Eq 37 N1))
+         (Eq false
+             (Eq 0 N2:(Read w8 1 arg00)))
+         (Eq false (Eq 92 N2))
+         (Eq false (Eq 37 N2))
+         (Eq false
+             (Eq 0 N3:(Read w8 2 arg00)))
+         (Eq false (Eq 92 N3))
+         (Eq false (Eq 37 N3))
+         (Eq false
+             (Eq 0 N4:(Read w8 3 arg00)))
+         (Eq false (Eq 92 N4))
+         (Eq false (Eq 37 N4))
+         (Eq false
+             (Eq 0 N5:(Read w8 4 arg00)))
+         (Eq false (Eq 92 N5))
+         (Eq false (Eq 37 N5))
+         (Eq false
+             (Eq 0 N6:(Read w8 5 arg00)))
+         (Eq false (Eq 92 N6))
+         (Eq false (Eq 37 N6))
+         (Eq false
+             (Eq 0 N7:(Read w8 6 arg00)))
+         (Eq false (Eq 92 N7))
+         (Eq false (Eq 37 N7))
+         (Eq false
+             (Eq 0 N8:(Read w8 7 arg00)))
+         (Eq false (Eq 92 N8))
+         (Eq false (Eq 37 N8))
+         (Eq 37 (Read w8 8 arg00))
+         (Eq false
+             (Eq 37 N9:(Read w8 9 arg00)))
+         (Eq false (Eq 113 N9))
+         (Eq false (Eq 98 N9))
+         (Eq false (Eq 73 N9))
+         (Eq false (Eq 32 N9))
+         (Eq false (Eq 35 N9))
+         (Eq false (Eq 39 N9))
+         (Eq false (Eq 43 N9))
+         (Eq false (Eq 45 N9))
+         (Eq false (Eq 48 N9))
+         (Eq false (Eq 42 N9))
+         (Eq false
+             (Ult (Add w32 4294967248 (SExt w32 N9))
+                  10))
+         (Eq false (Eq 46 N9))
+         (Eq false (Eq 122 N9))
+         (Eq false (Eq 116 N9))
+         (Eq false (Eq 104 N9))
+         (Eq false (Eq 106 N9))
+         (Eq false (Eq 108 N9))
+         (Eq false (Eq 76 N9))
+         (Eq false
+             (Eq 0
+                 (Read w8 (Extract w32 0 (ZExt w64 N9))
+                          const_arr3)))
+         (Or N10:(Eq 88 N9)
+             (Or N11:(Eq 120 N9)
+                 (Or N12:(Eq 117 N9)
+                     (Or N13:(Eq 111 N9)
+                         (Or (Eq 105 N9) (Eq 100 N9))))))
+         (Or N10
+             (Or N11 (Or N12 N13)))
+         (Eq false
+             (Eq 34 N14:(Read w8 0 arg01)))
+         (Eq false (Eq 39 N14))
+         (Eq 0
+             (And w32 (ZExt w32 (ReadLSB w16 N15:(Extract w32 0 (Add w64 256
+                                                                         (Mul w64 2
+                                                                                  (SExt w64 N16:(SExt w32 N14))))) const_arr1))
+                      8192))
+         (Eq false (Eq 43 N14))
+         (Eq false (Eq 45 N14))
+         (Eq false (Eq 48 N14))
+         (Eq false
+             (Sle (ZExt w32 (Extract w8 0 (Add w32 4294967248 N16)))
+                  9))
+         (Sle 65 N16)]
+        false)

@@ -1,0 +1,17 @@
+KLEE: Using STP solver backend
+KLEE: ERROR: ../src/dd.c:700: concretized symbolic size
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: ../src/dd.c:728: concretized symbolic size
+KLEE: NOTE: now ignoring this error at this location
+KLEE: increased time budget from 5.000000 to 6.478376
+
+KLEE: increased time budget from 6.478376 to 7.468704
+
+KLEE: increased time budget from 7.468704 to 12.940471
+
+KLEE: increased time budget from 12.940471 to 17.129906
+
+KLEE: increased time budget from 17.129906 to 20.300400
+
+KLEE: HaltTimer invoked
+KLEE: halting execution, dumping remaining states

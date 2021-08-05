@@ -1,0 +1,31 @@
+KLEE: WARNING: undefined reference to function: __ctype_get_mb_cur_max
+KLEE: WARNING: undefined reference to function: __gmpz_add
+KLEE: WARNING: undefined reference to function: __gmpz_clear
+KLEE: WARNING: undefined reference to function: __gmpz_get_str
+KLEE: WARNING: undefined reference to function: __gmpz_init_set_str
+KLEE: WARNING: undefined reference to function: __gmpz_init_set_ui
+KLEE: WARNING: undefined reference to function: __gmpz_mul
+KLEE: WARNING: undefined reference to function: __gmpz_out_str
+KLEE: WARNING: undefined reference to function: __gmpz_sub
+KLEE: WARNING: undefined reference to function: __gmpz_tdiv_q
+KLEE: WARNING: undefined reference to function: __gmpz_tdiv_r
+KLEE: WARNING: undefined reference to function: pthread_mutex_destroy
+KLEE: WARNING: undefined reference to function: pthread_mutex_init
+KLEE: WARNING: undefined reference to function: pthread_mutex_lock
+KLEE: WARNING: undefined reference to function: pthread_mutex_unlock
+KLEE: WARNING: undefined reference to function: pthread_mutexattr_gettype
+KLEE: WARNING: undefined reference to function: thrd_exit
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 94246332504064) at runtime/POSIX/fd.c:1007 10
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: vprintf(94246332152336, 94246332553408) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: calling close_stdout with extra arguments.
+KLEE: WARNING ONCE: calling external: __ctype_get_mb_cur_max() at ../lib/quotearg.c:262 36
+KLEE: WARNING ONCE: calling external: __gmpz_init_set_ui(94246334346344, 0) at ../src/expr.c:371 3
+KLEE: WARNING ONCE: Alignment of memory from call "calloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: pthread_mutex_init(94246319819240, 0) at ../lib/regcomp.c:759 7
+KLEE: WARNING ONCE: calling external: pthread_mutex_lock(94246319819240) at ../lib/regexec.c:391 3
+KLEE: WARNING ONCE: calling external: pthread_mutex_unlock(94246319819240) at ../lib/regexec.c:455 3
+KLEE: WARNING ONCE: calling external: pthread_mutex_destroy(94246319837640) at ../lib/regcomp.c:781 7
+KLEE: WARNING ONCE: calling external: __gmpz_init_set_str(94246333248936, 94246333018552, 10) at ../src/expr.c:499 46

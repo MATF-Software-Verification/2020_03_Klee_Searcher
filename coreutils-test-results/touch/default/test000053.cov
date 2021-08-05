@@ -1,0 +1,14 @@
+libc/stdio/fwrite.c:27
+libc/stdio/fwrite.c:28
+libc/stdio/fwrite.c:29
+../lib/argmatch.c:0
+../lib/argmatch.c:137
+../lib/argmatch.c:144
+../lib/argmatch.c:152
+../lib/argmatch.c:154
+../lib/argmatch.c:155
+../lib/argmatch.c:157
+../lib/argmatch.c:158
+../lib/argmatch.c:186
+../lib/quotearg.c:0
+../lib/quotearg.c:1074

@@ -1,0 +1,7 @@
+libc/unistd/getopt.c:420
+libc/unistd/getopt.c:1148
+../src/cp.c:0
+../src/cp.c:1140
+../src/cp.c:1141
+../lib/backupfile.c:84
+../lib/backupfile.c:88

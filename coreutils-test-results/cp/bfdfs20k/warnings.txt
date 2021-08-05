@@ -1,0 +1,315 @@
+KLEE: WARNING: undefined reference to function: __ctype_get_mb_cur_max
+KLEE: WARNING: undefined reference to function: acl_get_entry
+KLEE: WARNING: undefined reference to function: acl_get_tag_type
+KLEE: WARNING: undefined reference to function: attr_copy_check_permissions
+KLEE: WARNING: undefined reference to function: attr_copy_fd
+KLEE: WARNING: undefined reference to function: attr_copy_file
+KLEE: WARNING: undefined reference to function: context_free
+KLEE: WARNING: undefined reference to function: context_new
+KLEE: WARNING: undefined reference to function: context_str
+KLEE: WARNING: undefined reference to function: context_type_get
+KLEE: WARNING: undefined reference to function: context_type_set
+KLEE: WARNING: undefined reference to function: copy_file_range
+KLEE: WARNING: undefined reference to function: fallocate
+KLEE: WARNING: undefined reference to function: fdopendir
+KLEE: WARNING: undefined reference to function: fgetfilecon
+KLEE: WARNING: undefined reference to function: futimens
+KLEE: WARNING: undefined reference to function: getcon
+KLEE: WARNING: undefined reference to function: getfilecon
+KLEE: WARNING: undefined reference to function: getrandom
+KLEE: WARNING: undefined reference to function: lchmod
+KLEE: WARNING: undefined reference to function: lgetfilecon
+KLEE: WARNING: undefined reference to function: linkat
+KLEE: WARNING: undefined reference to function: mode_to_security_class
+KLEE: WARNING: undefined reference to function: posix_fadvise
+KLEE: WARNING: undefined reference to function: renameat
+KLEE: WARNING: undefined reference to function: renameat2
+KLEE: WARNING: undefined reference to function: security_compute_create
+KLEE: WARNING: undefined reference to function: selabel_lookup
+KLEE: WARNING: undefined reference to function: selabel_open
+KLEE: WARNING: undefined reference to function: symlinkat
+KLEE: WARNING: undefined reference to function: utimensat
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 94568830771296) at runtime/POSIX/fd.c:1007 10
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: geteuid() at ../src/copy.c:3130 59
+KLEE: WARNING ONCE: Alignment of memory from call "calloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: vprintf(94568830328752, 94568831152896) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: calling close_stdin with extra arguments.
+KLEE: WARNING ONCE: calling external: selabel_open(0, 0, 0) at ../src/cp.c:1124 42
+KLEE: WARNING ONCE: calling external: __ctype_get_mb_cur_max() at ../lib/quotearg.c:262 36
+KLEE: WARNING ONCE: calling external: symlinkat(94568832045880, 4294967196, 94568830294024) at ../src/force-link.c:156 60
+KLEE: WARNING ONCE: calling external: printf(94568788784896, 94568823491296, 94568823491296, 94568823491296) at ../src/cp.c:154 7
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+

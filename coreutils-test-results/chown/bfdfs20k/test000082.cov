@@ -1,0 +1,6 @@
+runtime/POSIX/fd.c:1409
+runtime/POSIX/fd.c:1410
+../src/chown-core.c:179
+../src/chown-core.c:475
+../src/chown-core.c:476
+../lib/fts.c:564

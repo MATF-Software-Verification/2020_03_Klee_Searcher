@@ -1,0 +1,19 @@
+KLEE: Using STP solver backend
+KLEE: ERROR: ../src/cp.c:1124: failed external call: selabel_open
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: ../lib/getfilecon.c:78: failed external call: lgetfilecon
+KLEE: NOTE: now ignoring this error at this location
+KLEE: increased time budget from 5.000000 to 5.536989
+
+KLEE: increased time budget from 5.536989 to 8.318696
+
+KLEE: increased time budget from 8.318696 to 10.541939
+
+KLEE: increased time budget from 10.541939 to 12.243945
+
+KLEE: increased time budget from 12.243945 to 14.938584
+
+KLEE: increased time budget from 14.938584 to 17.891177
+
+KLEE: HaltTimer invoked
+KLEE: halting execution, dumping remaining states

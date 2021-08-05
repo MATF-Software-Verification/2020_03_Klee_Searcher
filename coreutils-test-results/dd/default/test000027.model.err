@@ -1,0 +1,27 @@
+Error: concretized symbolic size
+File: ../src/dd.c
+Line: 728
+assembly.ll line: 10425
+State: 18853
+Stack: 
+	#000010425 in alloc_obuf () at ../src/dd.c:728
+	#100006335 in dd_copy () at ../src/dd.c:2180
+	#200005131 in __klee_posix_wrapped_main (=2, =94060161444224) at ../src/dd.c:2513
+	#300003191 in __user_main (=11, =94060122085568, =94060122085664) at runtime/POSIX/klee_init_env.c:245
+	#400000753 in __uClibc_main (=11, =94060122085568) at libc/misc/internals/__uClibc_main.c:401
+	#500000919 in main (=11, =94060122085568)
+Info: 
+  size expr: (Add w64 4095
+                       (Add w64 (Mul w64 10
+                                         (Add w64 (Mul w64 10
+                                                           (Add w64 (Mul w64 10
+                                                                             (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                                                              (SExt w32 (Read w8 6 arg00))))))
+                                                                    (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                                                     (SExt w32 (Read w8 7 arg00)))))))
+                                                  (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                                   (SExt w32 (Read w8 8 arg00)))))))
+                                (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                 (SExt w32 (Read w8 9 arg00)))))))
+  concretization : 5095
+  unbound example: 6095

@@ -1,0 +1,6 @@
+../src/operand2sig.c:86
+../lib/sig2str.c:0
+../lib/sig2str.c:336
+../lib/sig2str.c:337
+../lib/sig2str.c:364
+libc/unistd/getopt.c:473

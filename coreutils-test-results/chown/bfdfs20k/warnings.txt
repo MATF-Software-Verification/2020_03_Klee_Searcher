@@ -1,0 +1,85 @@
+KLEE: WARNING: undefined reference to function: __ctype_get_mb_cur_max
+KLEE: WARNING: undefined reference to function: fchownat
+KLEE: WARNING: undefined reference to function: fdopendir
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 94921871767792) at runtime/POSIX/fd.c:1007 10
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: vprintf(94921871711024, 94921872176512) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: calling close_stdout with extra arguments.
+KLEE: WARNING ONCE: calling external: printf(94921832968800, 94921866738864, 94921866738864) at ../src/chown.c:85 7
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING ONCE: calling external: __ctype_get_mb_cur_max() at ../lib/quotearg.c:262 36
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING ONCE: Alignment of memory from call "calloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: fchownat(4294967196, 94921910208512, 4294967295, 4294967295, 0) at ../lib/openat.h:64 3

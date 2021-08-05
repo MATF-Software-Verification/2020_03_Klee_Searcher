@@ -1,0 +1,105 @@
+n_args0  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+A-data-stat1  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+stdin-stat2  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+stdout-stat3  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+model_version4  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+arg005  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+const_arr16  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+const_arr27  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+arg018  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+arg029  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+%----------------------------------------------------
+ASSERT( BVGT(0x00000004,(n_args0[0x00000003] @ (n_args0[0x00000002] @ (n_args0[0x00000001] @ n_args0[0x00000000]
+)
+)
+))
+ );
+ASSERT( SBVGT((n_args0[0x00000003] @ (n_args0[0x00000002] @ (n_args0[0x00000001] @ n_args0[0x00000000]
+)
+)
+),0x00000000)
+ );
+ASSERT( ( NOT( ((((0x01 = n_args0[0x00000000]
+) AND (0x00 = n_args0[0x00000001]
+)
+) AND (0x00 = n_args0[0x00000002]
+)
+) AND (0x00 = n_args0[0x00000003]
+)
+))) );
+ASSERT( ( NOT( ((((0x02 = n_args0[0x00000000]
+) AND (0x00 = n_args0[0x00000001]
+)
+) AND (0x00 = n_args0[0x00000002]
+)
+) AND (0x00 = n_args0[0x00000003]
+)
+))) );
+ASSERT( ( NOT( (0b0000000000000000000000000000000 = (A-data-stat1[0x0000000B] @ (A-data-stat1[0x0000000A] @ (A-data-stat1[0x00000009] @ A-data-stat1[0x00000008]
+)
+)
+)[30:0]
+))) );
+ASSERT( BVGT(0x0000000000010000,(A-data-stat1[0x0000003F] @ (A-data-stat1[0x0000003E] @ (A-data-stat1[0x0000003D] @ (A-data-stat1[0x0000003C] @ (A-data-stat1[0x0000003B] @ (A-data-stat1[0x0000003A] @ (A-data-stat1[0x00000039] @ A-data-stat1[0x00000038]
+)
+)
+)
+)
+)
+)
+))
+ );
+ASSERT( ( NOT( (0b0000000000000000000000000000000 = (stdin-stat2[0x0000000B] @ (stdin-stat2[0x0000000A] @ (stdin-stat2[0x00000009] @ stdin-stat2[0x00000008]
+)
+)
+)[30:0]
+))) );
+ASSERT( BVGT(0x0000000000010000,(stdin-stat2[0x0000003F] @ (stdin-stat2[0x0000003E] @ (stdin-stat2[0x0000003D] @ (stdin-stat2[0x0000003C] @ (stdin-stat2[0x0000003B] @ (stdin-stat2[0x0000003A] @ (stdin-stat2[0x00000039] @ stdin-stat2[0x00000038]
+)
+)
+)
+)
+)
+)
+))
+ );
+ASSERT( ( NOT( (0b0000000000000000000000000000000 = (stdout-stat3[0x0000000B] @ (stdout-stat3[0x0000000A] @ (stdout-stat3[0x00000009] @ stdout-stat3[0x00000008]
+)
+)
+)[30:0]
+))) );
+ASSERT( BVGT(0x0000000000010000,(stdout-stat3[0x0000003F] @ (stdout-stat3[0x0000003E] @ (stdout-stat3[0x0000003D] @ (stdout-stat3[0x0000003C] @ (stdout-stat3[0x0000003B] @ (stdout-stat3[0x0000003A] @ (stdout-stat3[0x00000039] @ stdout-stat3[0x00000038]
+)
+)
+)
+)
+)
+)
+))
+ );
+ASSERT( ((((0x01 = model_version4[0x00000000]
+) AND (0x00 = model_version4[0x00000001]
+)
+) AND (0x00 = model_version4[0x00000002]
+)
+) AND (0x00 = model_version4[0x00000003]
+)
+) );
+ASSERT( (0x2D = arg005[0x00000000]
+) );
+ASSERT( ( NOT( (0x00 = arg005[0x00000001]
+))) );
+ASSERT( ( NOT( (0x2D = arg005[0x00000001]
+))) );
+ASSERT( (0x74 = BVSX(arg005[0x00000001],32)
+[7:0]
+) );
+ASSERT( ( NOT( (0x00 = arg005[0x00000002]
+))) );
+ASSERT( (0x39 = BVSX(arg005[0x00000002],32)
+[7:0]
+) );
+ASSERT( ( NOT( (0x00 = arg005[0x00000003]
+))) );
+%----------------------------------------------------
+QUERY( FALSE  );

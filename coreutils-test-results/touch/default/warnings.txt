@@ -1,0 +1,298 @@
+KLEE: WARNING ONCE: unsupported intrinsic llvm.abs.i32
+KLEE: WARNING: undefined reference to function: __ctype_get_mb_cur_max
+KLEE: WARNING: undefined reference to function: futimens
+KLEE: WARNING: undefined reference to function: utimensat
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 94847786376992) at runtime/POSIX/fd.c:1007 10
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: vprintf(94847786201168, 94847794918624) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: calling close_stdout with extra arguments.
+KLEE: WARNING ONCE: calling external: utimensat(4294967196, 94847786390128, 0, 0) at ../lib/fdutimensat.c:0 0
+KLEE: WARNING ONCE: calling external: __ctype_get_mb_cur_max() at ../lib/quotearg.c:262 36
+KLEE: WARNING ONCE: calling external: futimens(1, 0) at ../lib/fdutimensat.c:0 0
+KLEE: WARNING ONCE: calling external: gettimeofday(94847804869520, 0) at runtime/POSIX/stubs.c:159 20
+KLEE: WARNING ONCE: calling external: printf(94847786187744, 94847782694320) at ../src/touch.c:218 7
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: killing 5199 states (over memory cap: 1101MB)
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: killing 5192 states (over memory cap: 1102MB)
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: killing 5095 states (over memory cap: 1101MB)
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: killing 5049 states (over memory cap: 1101MB)
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: killing 5007 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4967 states (over memory cap: 1101MB)
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: killing 4929 states (over memory cap: 1101MB)
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: killing 4893 states (over memory cap: 1101MB)
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: killing 4855 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4810 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4774 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4746 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4709 states (over memory cap: 1101MB)
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: killing 4673 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4644 states (over memory cap: 1101MB)
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: killing 4612 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4583 states (over memory cap: 1101MB)
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: killing 4551 states (over memory cap: 1101MB)
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: killing 4517 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4493 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4468 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4450 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4419 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4401 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4360 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4348 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4317 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4279 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4264 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4262 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4231 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4218 states (over memory cap: 1101MB)
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: killing 4191 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4173 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4150 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4143 states (over memory cap: 1101MB)
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: killing 4128 states (over memory cap: 1101MB)
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: killing 4116 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4100 states (over memory cap: 1101MB)

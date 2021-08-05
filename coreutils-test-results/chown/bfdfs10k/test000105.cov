@@ -1,0 +1,8 @@
+libc/unistd/getopt.c:453
+libc/unistd/getopt.c:818
+libc/unistd/getopt.c:1085
+libc/unistd/getopt.c:1152
+../src/chown.c:0
+../src/chown.c:190
+../src/chown.c:251
+../src/chown.c:252

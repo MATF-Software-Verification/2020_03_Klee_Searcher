@@ -1,0 +1,25 @@
+/home/agent/Documents/VS/2020_03_Klee_Searcher/klee/build/bin/klee --simplify-sym-indices --write-cvcs --write-cov --output-module --max-memory=1000 --disable-inlining --optimize --use-forked-solver --use-cex-cache --libc=uclibc --posix-runtime --external-calls=all --only-output-states-covering-new --max-sym-array-size=4096 --max-solver-time=30s --max-time=60min --watchdog --max-memory-inhibit=false --max-static-fork-pct=1 --max-static-solve-pct=1 --max-static-cpfork-pct=1 --switch-type=internal --search=random-path --search=nurs:covnew --use-batching-search --batch-instructions=10000 /media/Data/coreutils/obj-llvm/src/expr.bc --sym-args 0 1 10 --sym-args 0 3 2 --sym-stdout
+PID: 285972
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2021-08-02 15:50:48
+BEGIN searcher description
+<BatchingSearcher> timeBudget: 5.000000e+00s, instructionBudget: 10000, baseSearcher:
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+</BatchingSearcher>
+END searcher description
+Finished: 2021-08-02 16:50:50
+Elapsed: 01:00:02
+KLEE: done: explored paths = 108346
+KLEE: done: avg. constructs per query = 1279
+KLEE: done: total queries = 47665
+KLEE: done: valid queries = 34632
+KLEE: done: invalid queries = 13033
+KLEE: done: query cex = 47665
+
+KLEE: done: total instructions = 696542167
+KLEE: done: completed paths = 46589
+KLEE: done: partially completed paths = 61757
+KLEE: done: generated tests = 87

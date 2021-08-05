@@ -1,0 +1,6 @@
+../src/echo.c:0
+../src/echo.c:108
+../src/echo.c:262
+libc/stdio/fputs.c:22
+libc/stdio/fputs.c:23
+libc/stdio/fputs.c:25

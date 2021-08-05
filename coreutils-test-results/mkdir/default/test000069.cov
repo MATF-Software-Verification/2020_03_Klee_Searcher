@@ -1,0 +1,11 @@
+runtime/POSIX/fd.c:0
+runtime/POSIX/fd.c:611
+runtime/POSIX/fd.c:613
+runtime/POSIX/fd.c:618
+runtime/POSIX/fd.c:624
+runtime/POSIX/fd.c:625
+../lib/savewd.c:180
+../lib/savewd.c:182
+../lib/savewd.c:183
+../lib/savewd.c:236
+../lib/savewd.c:237

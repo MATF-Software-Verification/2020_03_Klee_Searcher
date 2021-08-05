@@ -1,0 +1,15 @@
+Error: failed external call: lgetfilecon
+File: ../lib/getfilecon.c
+Line: 78
+assembly.ll line: 17474
+State: 575207
+Stack: 
+	#000017474 in rpl_lgetfilecon (=94297737857768, =94298220873672) at ../lib/getfilecon.c:78
+	#100013159 in set_process_security_ctx (=94297737857768, =94297737858224, , =true, =94297685831232) at ../src/copy.c:975
+	#200011426 in copy_internal (=94297737857768, =94297737858224, =false, =0, =0, =94297685831232, =true, =94298220875936, =94298220879664) at ../src/copy.c:2609
+	#300008054 in copy (=94297737857768, =94297737858224, =false, =94297685831232, =94298220879664) at ../src/copy.c:3105
+	#400007624 in do_copy (=2, =94297743818768, =0, =false, =94297685831232) at ../src/cp.c:781
+	#500006896 in __klee_posix_wrapped_main (=4, =94297743818752) at ../src/cp.c:1227
+	#600004584 in __user_main (=15, =94297715372544, =94297715372672) at runtime/POSIX/klee_init_env.c:245
+	#700000849 in __uClibc_main (=15, =94297715372544) at libc/misc/internals/__uClibc_main.c:401
+	#800001015 in main (=15, =94297715372544)

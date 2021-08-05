@@ -1,0 +1,229 @@
+KLEE: WARNING: undefined reference to function: __ctype_get_mb_cur_max
+KLEE: WARNING: undefined reference to function: fchownat
+KLEE: WARNING: undefined reference to function: fdopendir
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 93905129825264) at runtime/POSIX/fd.c:1007 10
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: vprintf(93905129741104, 93905130206592) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: calling close_stdout with extra arguments.
+KLEE: WARNING ONCE: calling external: printf(93905089325584, 93905124768944, 93905124768944) at ../src/chown.c:85 7
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING ONCE: calling external: __ctype_get_mb_cur_max() at ../lib/quotearg.c:262 36
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING ONCE: Alignment of memory from call "calloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: fchownat(4294967196, 93905154720768, 4294967295, 4294967295, 0) at ../lib/openat.h:64 3
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+

@@ -1,0 +1,79 @@
+array A-data-stat[144] : w32 -> w8 = symbolic
+array arg00[11] : w32 -> w8 = symbolic
+array model_version[4] : w32 -> w8 = symbolic
+array n_args[4] : w32 -> w8 = symbolic
+array stdin-stat[144] : w32 -> w8 = symbolic
+array stdout-stat[144] : w32 -> w8 = symbolic
+(query [(Ult N0:(ReadLSB w32 0 n_args)
+              4)
+         (Slt 0 N0)
+         (Eq false (Eq 1 N0))
+         (Eq false (Eq 2 N0))
+         (Eq false
+             (Eq 0
+                 (And w64 (ReadLSB w64 8 A-data-stat)
+                          2147483647)))
+         (Ult (ReadLSB w64 56 A-data-stat)
+              65536)
+         (Eq false
+             (Eq 0
+                 (And w64 (ReadLSB w64 8 stdin-stat)
+                          2147483647)))
+         (Ult (ReadLSB w64 56 stdin-stat)
+              65536)
+         (Eq false
+             (Eq 0
+                 (And w64 (ReadLSB w64 8 stdout-stat)
+                          2147483647)))
+         (Ult (ReadLSB w64 56 stdout-stat)
+              65536)
+         (Eq 1
+             (ReadLSB w32 0 model_version))
+         (Eq 45 (Read w8 0 arg00))
+         (Eq false
+             (Eq 0 N1:(Read w8 1 arg00)))
+         (Eq false (Eq 45 N1))
+         (Eq 116
+             (Extract w8 0 (SExt w32 N1)))
+         (Eq false
+             (Eq 0 N2:(Read w8 2 arg00)))
+         (Eq 115
+             (Extract w8 0 (SExt w32 N2)))
+         (Eq false
+             (Eq 0 N3:(Read w8 3 arg00)))
+         (Eq false
+             (Ult (Add w32 4294967248 N4:(SExt w32 N3))
+                  10))
+         (Eq false
+             (Eq 0 N5:(Read w8 4 arg00)))
+         (Eq 0 (Read w8 5 arg00))
+         (Eq false
+             (Eq 97 N6:(Extract w8 0 N4)))
+         (Eq false (Eq 98 N6))
+         (Eq false (Eq 99 N6))
+         (Eq false (Eq 100 N6))
+         (Eq false (Eq 101 N6))
+         (Eq false (Eq 102 N6))
+         (Eq false (Eq 103 N6))
+         (Eq false (Eq 104 N6))
+         (Eq false (Eq 105 N6))
+         (Eq false (Eq 106 N6))
+         (Eq false (Eq 107 N6))
+         (Eq false (Eq 108 N6))
+         (Eq false (Eq 109 N6))
+         (Eq false (Eq 110 N6))
+         (Eq false (Eq 111 N6))
+         (Eq false (Eq 112 N6))
+         (Eq false (Eq 113 N6))
+         (Eq false (Eq 114 N6))
+         (Eq false (Eq 115 N6))
+         (Eq false (Eq 116 N6))
+         (Eq false (Eq 117 N6))
+         (Eq false (Eq 118 N6))
+         (Eq false (Eq 119 N6))
+         (Eq false (Eq 120 N6))
+         (Eq false (Eq 121 N6))
+         (Eq false (Eq 122 N6))
+         (Eq 97
+             (Extract w8 0 (SExt w32 N5)))]
+        false)

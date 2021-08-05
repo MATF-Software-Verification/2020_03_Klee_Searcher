@@ -1,0 +1,8 @@
+../src/chown.c:309
+../src/chown-core.c:0
+../src/chown-core.c:115
+../src/chown-core.c:116
+../src/chown-core.c:117
+libc/string/stpcpy.c:17
+libc/string/stpcpy.c:24
+libc/string/stpcpy.c:27

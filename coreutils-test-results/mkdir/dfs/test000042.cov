@@ -1,0 +1,6 @@
+../src/mkdir.c:0
+../src/mkdir.c:193
+../src/mkdir.c:214
+../src/mkdir.c:225
+../src/mkdir.c:226
+libc/unistd/getopt.c:453

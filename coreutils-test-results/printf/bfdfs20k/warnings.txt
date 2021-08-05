@@ -1,0 +1,37 @@
+KLEE: WARNING: undefined reference to function: __ctype_get_mb_cur_max
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 94175220339872) at runtime/POSIX/fd.c:1007 10
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: vprintf(94175219988816, 94175220381376) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: calling close_stdout with extra arguments.
+KLEE: WARNING ONCE: calling external: __ctype_get_mb_cur_max() at ../lib/quotearg.c:262 36
+KLEE: WARNING: killing 3357 states (over memory cap: 1102MB)
+KLEE: WARNING: killing 3285 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 3250 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 3250 states (over memory cap: 1102MB)
+KLEE: WARNING: killing 3219 states (over memory cap: 1102MB)
+KLEE: WARNING: killing 3225 states (over memory cap: 1103MB)
+KLEE: WARNING: killing 3193 states (over memory cap: 1103MB)
+KLEE: WARNING: killing 3110 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 3173 states (over memory cap: 1104MB)
+KLEE: WARNING: killing 3151 states (over memory cap: 1102MB)
+KLEE: WARNING: killing 3170 states (over memory cap: 1102MB)
+KLEE: WARNING: killing 3270 states (over memory cap: 1102MB)
+KLEE: WARNING: killing 3348 states (over memory cap: 1102MB)
+KLEE: WARNING: killing 3274 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 3279 states (over memory cap: 1102MB)
+KLEE: WARNING: killing 3328 states (over memory cap: 1104MB)
+KLEE: WARNING: killing 3315 states (over memory cap: 1104MB)
+KLEE: WARNING: killing 3258 states (over memory cap: 1102MB)
+KLEE: WARNING: killing 3264 states (over memory cap: 1102MB)
+KLEE: WARNING: killing 3260 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 3362 states (over memory cap: 1103MB)
+KLEE: WARNING: killing 3372 states (over memory cap: 1102MB)
+KLEE: WARNING: killing 3360 states (over memory cap: 1102MB)
+KLEE: WARNING: killing 3352 states (over memory cap: 1103MB)
+KLEE: WARNING: killing 3250 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 3189 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 3200 states (over memory cap: 1103MB)
+KLEE: WARNING: killing 3145 states (over memory cap: 1102MB)
+KLEE: WARNING: killing 3094 states (over memory cap: 1101MB)

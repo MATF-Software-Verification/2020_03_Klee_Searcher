@@ -1,0 +1,167 @@
+KLEE: WARNING: undefined reference to function: __ctype_get_mb_cur_max
+KLEE: WARNING: undefined reference to function: fchownat
+KLEE: WARNING: undefined reference to function: fdopendir
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 93882615696096) at runtime/POSIX/fd.c:1007 10
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: vprintf(93882615241664, 93882616468000) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: calling close_stdout with extra arguments.
+KLEE: WARNING ONCE: calling external: __ctype_get_mb_cur_max() at ../lib/quotearg.c:262 36
+KLEE: WARNING ONCE: Alignment of memory from call "calloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: fchownat(4294967196, 93882623567872, 4294967295, (Select w32 (Or (Ult 4294967295
+                      N0:(Add w64 (Mul w64 10
+                                           (Add w64 (Mul w64 10
+                                                             (Add w64 (Mul w64 10
+                                                                               (Add w64 (Mul w64 10
+                                                                                                 (Add w64 (Mul w64 10
+                                                                                                                   (Add w64 (Mul w64 10
+                                                                                                                                     (Add w64 (Mul w64 10
+                                                                                                                                                       (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                                                                                                                                        (SExt w32 (Read w8 (Extract w32 0 (Add w64 18446650191093919329
+                                                                                                                                                                                                                                   N1:(Select w64 (Eq 0 (Read w8 1 arg01))
+                                                                                                                                                                                                                                                  0
+                                                                                                                                                                                                                                                  93882615632289)))
+                                                                                                                                                                                                           U0:[10=0] @ arg01))))))
+                                                                                                                                              (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                                                                                                                               (SExt w32 (Read w8 (Extract w32 0 (Add w64 18446650191093919330 N1))
+                                                                                                                                                                                                  U0)))))))
+                                                                                                                            (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                                                                                                             (SExt w32 (Read w8 (Extract w32 0 (Add w64 18446650191093919331 N1))
+                                                                                                                                                                                U0)))))))
+                                                                                                          (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                                                                                           (SExt w32 (Read w8 (Extract w32 0 (Add w64 18446650191093919332 N1))
+                                                                                                                                                              U0)))))))
+                                                                                        (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                                                                         (SExt w32 (Read w8 (Extract w32 0 (Add w64 18446650191093919333 N1))
+                                                                                                                                            U0)))))))
+                                                                      (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                                                       (SExt w32 (Read w8 (Extract w32 0 (Add w64 18446650191093919334 N1))
+                                                                                                                          U0)))))))
+                                                    (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                                     (SExt w32 (Read w8 (Extract w32 0 (Add w64 18446650191093919335 N1))
+                                                                                                        U0)))))))
+                                  (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                   (SExt w32 (Read w8 (Extract w32 0 (Add w64 18446650191093919336 N1))
+                                                                                      U0)))))))
+                 (Eq 4294967295 N2:(Extract w32 0 N0)))
+             4294967295
+             N2), 0) at ../lib/openat.h:64 3
+KLEE: WARNING ONCE: calling external: printf(93882574742960, 93882615121408, 93882615121408) at ../src/chown.c:85 7
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING ONCE: calling external: fdopendir(3) at ../lib/opendirat.c:0 0
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: write: write() ignores bytes.
+
+KLEE: WARNING: killing 4761 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4661 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4568 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4469 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4356 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4283 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4185 states (over memory cap: 1101MB)
+KLEE: WARNING: killing 4092 states (over memory cap: 1101MB)

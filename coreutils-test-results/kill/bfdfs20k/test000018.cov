@@ -1,0 +1,6 @@
+../lib/sig2str.c:292
+../lib/sig2str.c:294
+../lib/sig2str.c:295
+../lib/sig2str.c:297
+libc/signal/allocrtsig.c:46
+libc/signal/allocrtsig.c:52

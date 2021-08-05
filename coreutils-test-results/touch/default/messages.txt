@@ -1,0 +1,19 @@
+KLEE: Using STP solver backend
+KLEE: increased time budget from 5.000000 to 8.211627
+
+KLEE: increased time budget from 8.211627 to 10.429229
+
+KLEE: increased time budget from 10.429229 to 12.448452
+
+KLEE: increased time budget from 12.448452 to 17.039505
+
+KLEE: increased time budget from 17.039505 to 20.883139
+
+KLEE: increased time budget from 20.883139 to 23.005766
+
+KLEE: increased time budget from 23.005766 to 32.220362
+
+KLEE: increased time budget from 32.220362 to 38.631371
+
+KLEE: HaltTimer invoked
+KLEE: halting execution, dumping remaining states

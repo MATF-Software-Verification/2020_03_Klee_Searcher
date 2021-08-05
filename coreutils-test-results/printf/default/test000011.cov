@@ -1,0 +1,5 @@
+../src/printf.c:546
+../src/printf.c:547
+libc/stdio/_vfprintf.c:649
+libc/stdio/_vfprintf.c:1679
+libc/stdio/_vfprintf.c:1680

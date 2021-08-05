@@ -1,0 +1,12 @@
+../src/operand2sig.c:0
+../src/operand2sig.c:83
+../src/operand2sig.c:86
+../lib/sig2str.c:0
+../lib/sig2str.c:290
+../lib/sig2str.c:330
+../lib/sig2str.c:333
+../lib/sig2str.c:334
+../lib/sig2str.c:336
+../lib/sig2str.c:337
+../lib/sig2str.c:364
+libc/unistd/getopt.c:473

@@ -1,0 +1,10 @@
+Error: failed external call: selabel_open
+File: ../src/cp.c
+Line: 1124
+assembly.ll line: 6670
+State: 1885
+Stack: 
+	#000006670 in __klee_posix_wrapped_main (=2, =94884218820576) at ../src/cp.c:1124
+	#100004584 in __user_main (=15, =94884199977472, =94884199977600) at runtime/POSIX/klee_init_env.c:245
+	#200000849 in __uClibc_main (=15, =94884199977472) at libc/misc/internals/__uClibc_main.c:401
+	#300001015 in main (=15, =94884199977472)

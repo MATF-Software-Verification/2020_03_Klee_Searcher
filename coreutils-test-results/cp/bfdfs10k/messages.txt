@@ -1,0 +1,7 @@
+KLEE: Using STP solver backend
+KLEE: ERROR: ../src/cp.c:1124: failed external call: selabel_open
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: ../lib/getfilecon.c:78: failed external call: lgetfilecon
+KLEE: NOTE: now ignoring this error at this location
+KLEE: HaltTimer invoked
+KLEE: halting execution, dumping remaining states

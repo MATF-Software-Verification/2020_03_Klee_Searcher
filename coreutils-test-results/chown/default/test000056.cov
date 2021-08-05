@@ -1,0 +1,7 @@
+runtime/POSIX/fd.c:37
+runtime/POSIX/fd.c:64
+runtime/POSIX/fd.c:65
+runtime/POSIX/fd.c:66
+runtime/POSIX/fd.c:567
+runtime/POSIX/fd.c:568
+../src/chown-core.c:465

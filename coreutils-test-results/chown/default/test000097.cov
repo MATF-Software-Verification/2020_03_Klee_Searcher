@@ -1,0 +1,16 @@
+runtime/POSIX/fd.c:0
+runtime/POSIX/fd.c:582
+runtime/POSIX/fd.c:583
+runtime/POSIX/fd.c:590
+runtime/POSIX/fd.c:595
+runtime/POSIX/fd_32.c:0
+runtime/POSIX/fd_32.c:120
+runtime/POSIX/fd_32.c:121
+runtime/POSIX/fd_32.c:122
+runtime/POSIX/fd_32.c:123
+runtime/POSIX/fd_32.c:124
+../lib/fts.c:1778
+../lib/fts.c:1779
+../lib/fts.c:1780
+../lib/fts.c:1784
+../lib/fts.c:1785

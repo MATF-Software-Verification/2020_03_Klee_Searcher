@@ -1,0 +1,15 @@
+Error: failed external call: __gmpz_init_set_str
+File: ../src/expr.c
+Line: 499
+assembly.ll line: 7610
+State: 2072
+Stack: 
+	#000007610 in toarith (=94246333248928) at ../src/expr.c:499
+	#100007033 in eval3 (=true) at ../src/expr.c:865
+	#200006838 in eval2 (=true) at ../src/expr.c:883
+	#300006696 in eval1 (=true) at ../src/expr.c:962
+	#400004745 in eval (=true) at ../src/expr.c:993
+	#500004595 in __klee_posix_wrapped_main (=4, =94246333284640) at ../src/expr.c:353
+	#600002827 in __user_main (=10, =94246283470208, =94246283470296) at runtime/POSIX/klee_init_env.c:245
+	#700000675 in __uClibc_main (=10, =94246283470208) at libc/misc/internals/__uClibc_main.c:401
+	#800000841 in main (=10, =94246283470208)

@@ -1,0 +1,8 @@
+runtime/POSIX/stubs.c:0
+runtime/POSIX/stubs.c:115
+runtime/POSIX/stubs.c:116
+runtime/POSIX/stubs.c:117
+../src/copy.c:2817
+../src/copy.c:2820
+../src/copy.c:2821
+../src/copy.c:2822
